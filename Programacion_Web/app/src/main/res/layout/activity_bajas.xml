@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#304769"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    tools:srcCompat="@tools:sample/avatars[2]" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    tools:srcCompat="@tools:sample/avatars[5]" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/cardo"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/lbl_bajas"
+                    android:textColor="#F0E6E6"
+                    android:textSize="50dp"></TextView>
+
+                <EditText
+                    android:id="@+id/caja_Num_Control_Bajas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_numero_control"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <Spinner
+                    android:id="@+id/opciones_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent"
+                    android:scrollbarSize="20dp"
+                     />
+
+                <Button
+                    android:id="@+id/btn_consultar_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#FFF"
+                    android:onClick="consultarAlumnos"
+                    android:text="@string/btn_consultas"
+                    android:textColor="#000"></Button>
+
+                <EditText
+                    android:id="@+id/caja_Num_Control_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_numero_control"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:enabled="false"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Nombre_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_nombre"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Primer_Ap_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_primer_ap"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <EditText
+                    android:id="@+id/caja_Segundo_Ap_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/txt_segundo_ap"
+                    android:inputType="text"
+                    android:padding="10dp"></EditText>
+
+                <Spinner
+                    android:id="@+id/sp_edad_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent"
+                    android:scrollbarSize="20dp"
+                    tools:visibility="visible"></Spinner>
+
+                <Spinner
+                    android:id="@+id/sp_semestre_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_margin="5dp"
+                    android:autofillHints=""
+                    android:background="@color/colorAccent"
+                    android:scrollbarSize="20dp"
+                    tools:visibility="visible"></Spinner>
+
+                <Spinner
+                    android:id="@+id/sp_carrera_cambios"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorAccent"
+                    android:scrollbarSize="20dp"
+                    tools:visibility="visible"></Spinner>
+
+                <Button
+                    android:id="@+id/btn_dar_baja"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#F80202"
+                    android:onClick="consultarAlumnos"
+                    android:text="@string/btn_bajas"
+                    android:textColor="#000"></Button>
+
+                <Button
+                    android:id="@+id/btn_dar_cambio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#FFEB3B"
+                    android:onClick="consultarAlumnos"
+                    android:text="@string/btn_editar"
+                    android:textColor="#858080"></Button>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

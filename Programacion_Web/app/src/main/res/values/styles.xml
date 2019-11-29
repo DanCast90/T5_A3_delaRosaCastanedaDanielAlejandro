@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFCCAA</item>
+        <item name="colorPrimaryDark">#FFCCAA</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ThemeSegundaActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#4CAF50</item> <!--Color naranja-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ThemeTerceraActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#F44336</item> <!--Color naranja-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ThemeCuartaActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#FFC107</item>
+        <item name="colorPrimaryDark">#FFC107</item> <!--Color naranja-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ThemeQuintaActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#2196F3</item> <!--Color naranja-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+</resources>

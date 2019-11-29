@@ -1,0 +1,39 @@
+<resources>
+    <!--Nombres para etiquetas -->
+    <string name="lbl_menu">Menu Principal</string>
+    <string name="lbl_altas">ALTAS</string>
+    <string name="lbl_bajas">BAJAS/CAMBIOS</string>
+    <string name="lbl_cambios">CAMBIOS</string>
+    <string name="lbl_consultas">CONSULTAS</string>
+    <string name="lbl_filtro">Filtro</string>
+    <string name="lbl_login">INICIO DE SESION</string>
+
+
+    <!--Nombres para los botones -->
+    <string name="app_name">Android_HTTP</string>
+    <string name="btn_altas">Agregar</string>
+    <string name="btn_bajas_cambios">Eliminar/Editar</string>
+    <string name="btn_bajas">Eliminar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_consultas">Consultar</string>
+    <string name="btn_consultas_todo">Consultar Todo</string>
+    <string name="btn_ingreso">Ingresar</string>
+
+    <!--Nombres para las cajas de texto -->
+    <string name="txt_numero_control">Numero de Control</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_primer_ap">Primer_Ap</string>
+    <string name="txt_segundo_ap">Segundo_Ap</string>
+    <string name="txt_edad">Edad</string>
+    <string name="txt_semestre">Semestre</string>
+    <string name="txt_carrera">Carrera</string>
+    <string name="txt_busqueda">Ingresa el Dato a Buscar</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_contrasena">Contraseña</string>
+
+    <!--Nombres para los spinners -->
+    <string name="sp_edad">Edad</string>
+    <string name="sp_semestre">Semestre</string>
+    <string name="sp_carrera">Carrera</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#61B9F2"
+    android:gravity="center"
+    android:padding="50dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        tools:srcCompat="@tools:sample/avatars[6]" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/cardo"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/lbl_login"
+        android:textColor="#B23841"
+        android:textSize="30dp"></TextView>
+
+    <EditText
+        android:id="@+id/caja_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFD29A"
+        android:hint="@string/txt_usuario"
+        android:textColorHint="#5F3500"
+        android:inputType="text"
+        android:textColor="#2C1900"
+        android:padding="10dp"></EditText>
+    <EditText
+        android:id="@+id/caja_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFD29A"
+        android:hint="@string/txt_contrasena"
+        android:textColorHint="#5F3500"
+        android:inputType="text"
+        android:textColor="#2C1900"
+        android:padding="10dp"></EditText>
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFF"
+        android:onClick="ingresar"
+        android:text="@string/btn_ingreso"
+        android:textColor="#000"></Button>
+</LinearLayout>

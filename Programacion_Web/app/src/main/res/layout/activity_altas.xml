@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#304769"
+    android:gravity="center"
+    android:padding="50dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/cardo"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/lbl_altas"
+        android:textColor="#F0E6E6"
+        android:textSize="50dp"></TextView>
+
+    <EditText
+        android:id="@+id/caja_Num_Control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_numero_control"
+        android:inputType="text"
+        android:padding="10dp"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_nombre"
+        android:inputType="text"
+        android:padding="10dp"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Primer_Ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_primer_ap"
+        android:inputType="text"
+        android:padding="10dp"></EditText>
+
+    <EditText
+        android:id="@+id/caja_Segundo_Ap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:hint="@string/txt_segundo_ap"
+        android:inputType="text"
+        android:padding="10dp"></EditText>
+
+    <Spinner
+        android:id="@+id/sp_edad"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:scrollbarSize="20dp"
+        tools:visibility="visible"></Spinner>
+    <Spinner
+        android:id="@+id/sp_semestre"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:scrollbarSize="20dp"
+        tools:visibility="visible"></Spinner>
+    <Spinner
+    android:id="@+id/sp_carrera"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:layout_margin="5dp"
+    android:background="@color/colorAccent"
+    android:scrollbarSize="20dp"
+    tools:visibility="visible"></Spinner>
+
+
+    <Button
+        android:id="@+id/btn_dar_alta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="registrarAlumno"
+        android:text="@string/btn_altas"
+        android:textColor="#000"></Button>
+</LinearLayout>
